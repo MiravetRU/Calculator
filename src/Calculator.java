@@ -24,16 +24,20 @@ public class Calculator {
         int f = fromRomanNumber(b);
 
 
-        if ((a.equals("I") || a.equals("II") || a.equals("III") || a.equals("IV") || a.equals("V") || a.equals("VI") || a.equals("VII") || a.equals("VIII") || a.equals("IX") || a.equals("X"))) {
+        if ((a.equals("I") || a.equals("II") || a.equals("III") || a.equals("IV") || a.equals("V") || a.equals("VI")
+                || a.equals("VII") || a.equals("VIII") || a.equals("IX") || a.equals("X"))) {
             number1 = e;
         }
-        if (b.equals("I") || b.equals("II") || b.equals("III") || b.equals("IV") || b.equals("V") || b.equals("VI") || b.equals("VII") || b.equals("VIII") || b.equals("IX") || b.equals("X")) {
+        if (b.equals("I") || b.equals("II") || b.equals("III") || b.equals("IV") || b.equals("V") || b.equals("VI")
+                || b.equals("VII") || b.equals("VIII") || b.equals("IX") || b.equals("X")) {
             number2 = f;
         }
-        else if (a.equals("1") || a.equals("2") || a.equals("3") || a.equals("4") || a.equals("5") || a.equals("6") || a.equals("7") || a.equals("8") || a.equals("9") || a.equals("10")) {
+        else if (a.equals("1") || a.equals("2") || a.equals("3") || a.equals("4") || a.equals("5") || a.equals("6")
+                || a.equals("7") || a.equals("8") || a.equals("9") || a.equals("10")) {
             number1 = Integer.parseInt(a);
         }
-        else if (b.equals("1") || b.equals("2") || b.equals("3") || b.equals("4") || b.equals("5") || b.equals("6") || b.equals("7") || b.equals("8") || b.equals("9") || b.equals("10")) {
+        else if (b.equals("1") || b.equals("2") || b.equals("3") || b.equals("4") || b.equals("5") || b.equals("6")
+                || b.equals("7") || b.equals("8") || b.equals("9") || b.equals("10")) {
             number2 = Integer.parseInt(b);
         } else {
             System.out.println("Недопустимые числа");
